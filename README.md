@@ -11,7 +11,7 @@ git config --global user.email email@email.com
 ```
 
 Ordem para criar um repositório:
-- Inicializar o repositório:´
+- Inicializar o repositório:
 ```bash
 git init
 ```
