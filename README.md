@@ -30,3 +30,11 @@ git commit -m "mensagem"
 ```bash
 git status
 ```
+
+- Commitar já existente
+```bash
+git pull (na pasta)
+git add .
+git commit -m "mensagem"
+git push
+```
