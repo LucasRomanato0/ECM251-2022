@@ -26,6 +26,11 @@ git add .
 git commit -m "mensagem"
 ```
 
+- Subir os arquivos:
+```bash
+git push
+```
+
 - Verificar status
 ```bash
 git status
@@ -33,7 +38,7 @@ git status
 
 - Commitar já existente
 ```bash
-git pull (na pasta)
+git clone/git pull (na pasta)
 git add .
 git commit -m "mensagem"
 git push
