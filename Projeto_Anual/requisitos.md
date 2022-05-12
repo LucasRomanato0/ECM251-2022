@@ -1,3 +1,5 @@
+- Usuario
+
 - Conta
 ```bash
 Login
@@ -7,7 +9,7 @@ Adicionar os dados de pagamento
 Trocar fundo de perfil
 ```
 
-- Jogos
+- Jogo
 ```bash
 Adicionar os jogos (nome/foto/descrição)
 Adicionar gameplay
@@ -27,21 +29,35 @@ Termos e condições
 Plataforma utilitária
 ```
 
-- Plataformas
+- EnumTipoDeJogo
 ```bash
-Possibilidade de pesquisa
-Mudar idioma
-Comunidade
-Suporte
-Loja
-Link HOME
-Notícias
-Novidades
-Busca por categoria
-Sistema de pontos/créditos
-Vistos recentemente
-Biblioteca com os seus jogos
-Ofertas
+ACAO
+RPG
+JRPG
+MOBA
+SHOOTER
+FPS
+...
+```
+
+- EnumPlataforma
+```bash
+PC
+PS5
+PS4
+XBOX_SX
+XBOX_ONE
+SWITCH
+MOBILE
+```
+
+- EnumOS
+```bash
+WINDOWS
+LINUX
+MACOS
+ANDROID
+IOS
 ```
 
 - Feedback
@@ -56,35 +72,53 @@ Geral
 Controle de linguagem, conteúdo da mensagem
 ```
 
-- Reembolso
+- EnumFeedback
+```bash
+POSITIVO
+NEGATIVO
+NEUTRO
+```
+
+- Transacao
 ```bash
 Prazo de 7 dias para soliciar o reembolso
 ```
 
-- Compra
+- MetodoDePagamento
 ```bash
-Adicionar método de pagamento
-Confirmação dupla de compra
-Saldo da conta
-Carrinho de compras
-Comprar para presente
-Continuar compra
-Termos de condições
+-> Cartao
+    Credito
+    Debito
+Boleto
+Pix
+MercadoPago
+PayPal
+CreditoDaConta
 ```
 
-- Troféus
+- EnumTrofeus
 ```bash
-Comparação com os amigos
-Porcentagem no total do jogo inteiro
-
+PLATINA
+OURO
+PRATA
+BRONZE
+FERRO
 ```
 
-- Usuários
+- EnumCupom
 ```bash
-
+DESCONTO
+CASHBACK
+PONTOS_PROMOCIONAIS
+BRINDE
 ```
 
-- Códigos
-```bash
+- PontosPromocionais
 
+- EnumCartaoPresente
+```bash
+JOGO
+CREDITOS
 ```
+
+- CarrinhoDeCompras
