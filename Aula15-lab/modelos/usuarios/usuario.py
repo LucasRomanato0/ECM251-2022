@@ -5,6 +5,6 @@ class Usuario:
         self._email = email
     def get_user_name(self):
         return self._user_name
-        
+
     def check_password(self, password):
         return password == self._password
