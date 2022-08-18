@@ -5,4 +5,4 @@ class Conta:
 
     def get_historico_de_compras(self):
         return self._historico_de_compras
-        
+    
