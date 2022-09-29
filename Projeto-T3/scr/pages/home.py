@@ -8,7 +8,7 @@ prod1, prod2, prod3, prod4 = st.columns(4)
 with st.container():    
     with prod1:
         st.image(
-            'assets./produto.png'
+            image = '../assets/produto.png'
         )
         st.text('Valor: R$5623,87')
         st.button(
@@ -17,7 +17,7 @@ with st.container():
 
     with prod2:
         st.image(
-            'assets./produto.png'
+            image = '../assets/produto.png'
         )
         st.text('Valor: R$2,90')
         st.button(
@@ -26,7 +26,7 @@ with st.container():
 
     with prod3:
         st.image(
-            'assets./produto.png'
+            image = '../assets/produto.png'
         )
         st.text('Valor: R$198,43')
         st.button(
@@ -35,7 +35,7 @@ with st.container():
 
     with prod4:
         st.image(
-            'assets./produto.png'
+            image = '../assets/produto.png'
         )
         st.text('Valor: R$0,42')
         st.button(
