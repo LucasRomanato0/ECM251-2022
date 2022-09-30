@@ -19,6 +19,8 @@
        justify-content: space-between;
        background-color: rgba(18, 41, 50, 1);
        padding: 50px;
+       border-radius: 20px;
+       margin-top: 80px;
 }
 
 .edgvbvh9{ /* aparentemente esse é o botão */
@@ -38,10 +40,5 @@
 
 .e1tzin5v0{
        width: 100%;
-}
-
-.etr89bj2{
-       background-color: bisque;
-       display: flex;
        align-items: center;
 }

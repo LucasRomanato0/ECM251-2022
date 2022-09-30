@@ -3,9 +3,6 @@ import streamlit as st
 with open("style.css") as f:
     st.markdown(f"<style>{f.read()}</style>", unsafe_allow_html = True)
 
-def go_to_page():
-    pass
-
 with st.container():
     st.image(
         image = '../assets/perfil.png'
@@ -27,5 +24,3 @@ with st.container():
     st.button(
             label="Entrar"
         )
-
-# st.sidebar.title("Navegação")
