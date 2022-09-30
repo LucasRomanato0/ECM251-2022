@@ -21,15 +21,11 @@ with st.container():
         placeholder = "Digite aqui sua senha"
     )
 
-    col1, col2 = st.columns(2)
-    with col1:
-        st.button(
+    st.button(
             label="Cadastre-se"
         )
-
-    with col2:
-        st.button(
+    st.button(
             label="Entrar"
         )
 
-st.sidebar.title("Navegação")
+# st.sidebar.title("Navegação")

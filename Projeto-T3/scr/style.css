@@ -6,6 +6,8 @@
 } /* reset da página */
 
 .eczokvf1{ /* main */
+       width: 100%;
+       height: 100%;
        display: flex;
        align-items: center;
        background-color: rgba(247, 237, 226, 1);
@@ -19,27 +21,27 @@
        padding: 50px;
 }
 
-.e1tzin5v4{ /* row dos botões */
-       display: flex;
-       align-items: center;
-       justify-content: space-between;
-       width: 100%;
-       max-width: 500px;
-       padding: 10px;
-       /* background-color: blanchedalmond; */
-       
-}
-
 .edgvbvh9{ /* aparentemente esse é o botão */
        display: flex;
        align-items: center;
        background-color: rgba(44, 81, 76, 1);
        border: none;
        width: 100%;
-
+       height: 40px;
 }
 
 .stButton{
-       background-color: brown;
+       /* background-color: brown; */
        width: 100%;
+       padding: 10px 0;
+}
+
+.e1tzin5v0{
+       width: 100%;
+}
+
+.etr89bj2{
+       background-color: bisque;
+       display: flex;
+       align-items: center;
 }
