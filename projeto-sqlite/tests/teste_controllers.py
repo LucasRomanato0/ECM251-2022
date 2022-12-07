@@ -18,3 +18,16 @@ for item in items:
 print("*************************************************************")
 item = controller.pegar_item("CAF6")
 print(item)
+
+print("*************************************************************")
+item = controller.pegar_item("OLA")
+item.nome = "RTX4090"
+item.preco = 14990.90
+print(controller.atualizar_item(item))
+# print(controller.deletar_item(item.id))
+
+
+print("*************************************************************")
+items = controller.buscar_item_nome('Au')
+for item in items:
+       print(item)
